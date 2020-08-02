@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Pulse</title>
+      <title>index</title>
       <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
       <link rel="stylesheet" href="css/fonts.css" />
       <link rel="stylesheet" href="css/slick.css" />
+      <link rel="stylesheet" href="css/animate.min.css" />
       <link rel="stylesheet" href="css/style.min.css" />
    </head>
    <body>
@@ -79,7 +80,11 @@
                   </div>
                </div>
                <div class="advantages__icon">
-                  <img src="icons/heart.png" alt="" />
+                  <img
+                     src="icons/heart.png"
+                     class="advantages__icon_animated"
+                     alt=""
+                  />
                   <div class="advantages__subtitle">Заботимся о здоровье</div>
                   <div class="advantages__descr">
                      Мы работаем для того, чтобы Ваши занятия спортом шли на
@@ -123,7 +128,7 @@
          </div>
       </section>
 
-      <section class="carousel">
+      <div class="carousel">
          <div class="container">
             <div class="carousel__inner">
                <div>
@@ -137,7 +142,7 @@
                </div>
             </div>
          </div>
-      </section>
+      </div>
 
       <section class="catalog">
          <div class="container">
@@ -576,7 +581,11 @@
       <section class="review">
          <div class="container">
             <h2 class="title">отзывы клиентов</h2>
-            <div class="review__item">
+            <div
+               class="review__item animate__animated animate__fadeInUp wow"
+               data-wow-duration="2s"
+               data-wow-delay="1s"
+            >
                <img src="icons/man1.png" alt="" class="review__img" />
                <div class="review__text">
                   <div class="review__subtitle">Ирина Иванченко</div>
@@ -593,7 +602,11 @@
                </div>
             </div>
             <hr />
-            <div class="review__item">
+            <div
+               class="review__item animate__animated animate__fadeInUp wow"
+               data-wow-duration="2s"
+               data-wow-delay="1s"
+            >
                <img src="icons/man2.png" alt="" class="review__img" />
                <div class="review__text">
                   <div class="review__subtitle">Иван Сёмочкин</div>
@@ -612,7 +625,11 @@
                </div>
             </div>
             <hr />
-            <div class="review__item">
+            <div
+               class="review__item animate__animated animate__fadeInUp wow"
+               data-wow-duration="2s"
+               data-wow-delay="1s"
+            >
                <img src="icons/man3.png" alt="" class="review__img" />
                <div class="review__text">
                   <div class="review__subtitle">Юлия Дашкина</div>
@@ -638,7 +655,6 @@
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.4358670307233!2d37.64498970630214!3d55.76830143183568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCAxMDcwNzg!5e0!3m2!1sru!2sru!4v1596016396329!5m2!1sru!2sru"
             width="100%"
             height="630"
-            frameborder="0"
             style="border: 0;"
             allowfullscreen=""
             aria-hidden="false"
@@ -711,25 +727,20 @@
          </div>
       </div>
 
-
-
       <a href="#up" class="pageup"
          ><img src="img/chevron-circle-up-solid.svg" alt="" class="pageup"
       /></a>
 
-
-
       <script
-         type="text/javascript"
          src="https://code.jquery.com/jquery-1.11.0.min.js"
       ></script>
       <script
-         type="text/javascript"
          src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
       ></script>
       <script src="js/slick.min.js"></script>
       <script src="js/jquery.validate.min.js"></script>
       <script src="js/jquery.maskedinput.min.js"></script>
+      <script src="js/wow.min.js"></script>
       <script src="js/script.js"></script>
    </body>
 </html>
